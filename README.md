@@ -6,7 +6,7 @@ Retinal Optical Coherence Tomography (OCT) is an imaging technique used to captu
 1. pip install -r requirements.txt
 2. python app.py
 3. Selectionner l'image OCT en format JPEG à analyser et cliquez sur View
-4. La class déterminée par le modèle s'affiche sous l'image
+4. La classe déterminée par le modèle s'affiche sous l'image
 
 CNV = class 0
 DME = class 1
