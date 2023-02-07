@@ -129,5 +129,6 @@ dmypy.json
 .pyre/
 
 # Exclude dataset and models
-/content
-/models
+/content/*
+/models/*
+/static/*
