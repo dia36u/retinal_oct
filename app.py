@@ -15,7 +15,7 @@ logging.basicConfig(level=logging.DEBUG)
 
 # load model 
 
-model = tf.keras.models.load_model('retinal-oct.h5')
+model = tf.keras.models.load_model('models/retinal-oct.h5')
 
 # prepare images 
 
