@@ -1,0 +1,10 @@
+<h1>Retinal OCT prediction API</h1>
+<form method="post" enctype="multipart/form-data">
+    <p>Select a file: <input type="file" id="file" name="file" />
+        <input type="submit" value="View">
+    </p>
+</form>
+{% if prediction : %}
+<img src="static/img.jpeg">
+<p>class : {{ prediction }}</p>
+{% endif %}
