@@ -2,6 +2,16 @@
 Model for detecting retina damage from Optical Coherence Tomography (OCT) Images, using Transfer Learning on VGG16 CNN Model.
 ## Context
 Retinal Optical Coherence Tomography (OCT) is an imaging technique used to capture high-resolution cross sections of the retinas of living patients. Approximately 30 million OCT scans are performed each year, and the analysis and interpretation of these images takes up a significant amount of time (Swanson and Fujimoto, 2017).
+## Installation
+1. pip install -r requirements.txt
+2. python app.py
+3. Selectionner l'image OCT en format JPEG à analyser et cliquez sur View
+4. La classe déterminée par le modèle s'affiche sous l'image
+
+CNV = class 0
+DME = class 1
+DUREN = class 2
+NORMAL = class 3 
 
 ## Data:
 Data is avalaible here : https://data.mendeley.com/datasets/rscbjbr9sj/2
